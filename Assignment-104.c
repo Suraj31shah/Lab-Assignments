@@ -17,7 +17,7 @@ int main() {
         printf("#FFFF00");
         break;
         case Blue:
-        printf("#CCEEFF");
+        printf("#0000FF");
         break;
         default:
         printf("Invalid color");
