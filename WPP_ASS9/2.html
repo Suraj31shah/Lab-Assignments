@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 1px 0;
+            display: flex;
+            align-items: center;
+        }
+        .head {
+            width: 650px;
+        }
+        .logo {
+            width: 100px;
+            margin-right: auto;
+            height: 75px;
+            padding-left: 50px;
+        }
+        .sardar {
+            height: 75px;
+            width: 100px;
+            margin-left: auto;
+            padding-right: 50px;
+        }
+        nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            align-items: center;
+            justify-content: center;
+            background: #0073b1;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .container {
+            font-weight: bold;
+            display: flex;
+            padding: 50px;
+        }
+        .left-menu, .right-menu {
+            width: 20%;
+            padding: 10px;
+        }
+        .left-menu a, .right-menu a {
+            display: block;
+            padding: 10px;
+            margin: 5px 0;
+            background: #70c0ec;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+        .left-menu a:hover, .right-menu a:hover {
+            color: red;
+        }
+        .main-content {
+            width: 60%;
+            text-align: center;
+        }
+        .banner img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .end a {
+            text-decoration: none;
+            color: rgb(100, 96, 96);
+        }
+        .end a:hover {
+            color: red;
+        }
+        .end img {
+            width: 70px;
+            height: auto;
+            margin-left: 10px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class= "logo" src="logo.png" alt="" style="width: 100px;">
+        <img class="head" src="svnit.png" alt="">
+        <img class="sardar" src="sardar_vallabhbhai_patel.png" alt="">
+    </header>
+    <nav>
+        <a href="#">ABOUT US</a>
+        <a href="#">ADMINISTRATION</a>
+        <a href="#">ACADEMIC</a>
+        <a href="#">DEPARTMENTS</a>
+        <a href="#">STUDENT LIFE</a>
+        <a href="#">RESEARCH & CONSULTANCY</a>
+        <a href="#">CAREER DEVELOPMENT CELL</a>
+        <a href="#">CENTRAL FACILITY</a>
+        <a href="#">CONTACT US</a>
+    </nav>
+    <div class="container">
+        <div class="left-menu">
+            <a href="#">Minutes of Meetings</a>
+            <a href="#">Memorandum of Understanding</a>
+            <a href="#">Ek Bharat Shreshta Bharat</a>
+            <a href="#">Achievements</a>
+            <a href="#">Central Library</a>
+            <a href="#">Alumni</a>
+            <a href="#">NIRF</a>
+            <a href="#">Career</a>
+            <a href="#">Vigilance Section</a>
+            <a href="#">RTI</a>
+            <a href="#">Employee Corner</a>
+        </div>
+        <div class="main-content">
+            <div class="banner">
+                <img src="3b.jpg" alt="SVNIT Banner">
+            </div>
+        </div>
+        <div class="right-menu">
+            <a href="#">Samarth-eGov</a>
+            <a href="#">Chapters | Clubs | Society</a>
+            <a href="#">Magazine | Newsletter</a>
+            <a href="#">Admission</a>
+            <a href="#">Scholarship</a>
+            <a href="#">Fees Structure</a>
+            <a href="#">Academic Calendar</a>
+            <a href="#">JoSAA | CCMT</a>
+            <a href="#">Hostel</a>
+            <a href="#">Fees Payment</a>
+            <a href="#">NCC | NSS | Yoga</a>
+            <a href="#">Cells</a>
+        </div>
+    </div>
+
+    <div class="end">
+        <img src="new alert.png" alt="">
+        <p><a href="#">Ph.D Admission - July 2025 (Indian Nationals):</a> <a href="#">Information Brochure</a> | <a href="#">Schedule</a> | <a href="#">Apply Online</a></p>
+        <p><a href="#">Study in India - July 2025 (Indian Nationals):</a> <a href="#">Information Brochure</a> | <a href="#">Schedule</a> | <a href="#">Apply Online</a></p>
+    </div>
+</body>
+</html>
