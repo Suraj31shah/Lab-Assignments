@@ -1,0 +1,7 @@
+John 101 CSE
+Mary 102 ECE
+Peter 103 ME
+Alice 104 IT
+John 105 EEE
+Kate 106 CSE
+
